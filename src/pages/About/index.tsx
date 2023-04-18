@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
+import MenuAbout from './MenuAbout'
 
 export default function About(){
     return(
         <>
-            <h1>About</h1>
-            <Link to="/">volta raiz</Link>
+            <MenuAbout/>
+            <Link to="/"> <button> volta raiz </button> </Link>
         </>
     )
 }
