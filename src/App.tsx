@@ -7,7 +7,7 @@ import Main from './pages/Main'
 
 import logo from './assets/share-rent.png'
 import Login from './pages/Login'
-import Cadastrar from './pages/Cadastrar/Cadastrar'
+import Cadastrar from './pages/Cadastrar'
 
 function App() {
 
