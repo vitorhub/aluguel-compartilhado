@@ -8,6 +8,7 @@ import Main from './pages/Main'
 import logo from './assets/share-rent.png'
 import Login from './pages/Login'
 import Cadastrar from './pages/Cadastrar'
+import Form from './pages/Form'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' element={ <About/> } />
         <Route path='/login' element={ <Login/> } />
         <Route path='/cadastrar' element={ <Cadastrar/> } />
+        <Route path='/formulario' element={ <Form/> } />
       </Routes>
     </div>
   )

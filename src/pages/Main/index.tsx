@@ -23,7 +23,6 @@ export default function Main() {
           })
           .catch((err) => console.log(err))
       }
-      
 
     return (
         <>
@@ -45,9 +44,13 @@ export default function Main() {
 
             <button onClick={ AbreCadastrar }>Cadastrar</button>
             {/* <Link to="/about">voltar</Link> */}
-            {cadastrar ? (<form action="/">
+            {cadastrar ? (<form action="/formulario">
             <label htmlFor="email">email</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" /> <br />
+            <label htmlFor="senha1">senha</label>
+            <input type="password" name="senha1" id="senha1" /> <br />
+            <label htmlFor="senha2">repete</label>
+            <input type="password" name="senha2" id="senha2" />
             <input type="submit" value="Submit" />
             </form>): ""}
             <button onClick={BuscaCad}>busca</button>
